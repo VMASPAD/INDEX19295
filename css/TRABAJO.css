@@ -1,0 +1,496 @@
+#t03,table, th, td {
+    border: 8px solid rgba(255, 255, 255, 0);
+    border-collapse: collapse;
+  }
+  #CORRECCION{
+    width: 800px;
+    height: 957px;
+  }
+  table {
+    width:100%;
+  }
+  table, th, td {
+    border: 4px solid rgb(0, 0, 0);
+    border-collapse: collapse;  
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    position: relative;
+    width: 30cm;
+    margin: 1px;
+    margin-left: 400px;
+    text-align: center;
+    padding: 11px;
+    text-align: center;
+  }
+  #t03 th {
+    margin-left: 12;
+    position: absolute;
+    float: right;
+    width: 5cm;
+    height: 7cm;
+    float: left;
+    text-align: left;
+    background-color: white;
+    border: 8px solid rgb(255, 0, 0);
+    border-collapse: collapse;
+  }
+  .h1 {
+   color: rgb(255, 255, 255);
+   font: 150% Archive;
+  }
+  .tr1 {
+   color: rgb(255, 255, 255);
+   font-size: small;
+   margin: 10px;
+  }
+  .tr2 {
+    color: rgb(255, 255, 255);
+    font-size: small;
+   }
+  .tr3 {
+   color: rgb(255, 255, 255);
+   font-size: small;
+  }
+  table {
+    font-size: small;
+  }
+  #body {
+      background-image: url(../images/FONDO1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: 800px;
+    }
+    footer{
+      color: rgb(255, 255, 255);
+    }
+    .FONDOJ2{
+      position: absolute;
+      width: 324px;
+      height: 157px;
+      background: url(AFG.png);
+      border-radius: 26px
+    }
+    .TITULOS5{
+      color: azure;
+      font: 150% Archive;
+    }
+    .Oferta{
+        display: block;
+        width: 6%;
+        padding: 5px;
+        border: none;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        background: gold;
+        color: rgb(192, 48, 48);
+        margin-right: 0px;    
+    }
+    #NONE{
+      color: aliceblue;
+    }
+    #TEXTOCHAT{
+      background-color: white;
+      border: 8px solid rgb(255, 0, 0);
+      border-collapse: collapse;
+    }
+    .IMAGEN1{
+    position: relative;
+    top: 0px; 
+    left: 1550px;
+    width: 60px;
+    height: 60px;
+    bottom: 1200px;
+    border-radius: 50%;
+    margin: 10px;
+    border:2px solid #fff;
+    display: block;
+    }
+    .CHATGLOBAL{
+      position: relative;
+      margin-left: 12;
+      position: absolute;
+      float: right;
+      width: 7.5cm;
+      height: 10cm;
+      float: left;
+      text-align: left;
+      background-color: white;
+      border: 9px solid rgb(255, 0, 0);
+      border-collapse: collapse;
+      margin: 0%;
+      top: 390px;
+      margin-left: 100px;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+    }
+    .CHATGLOBAL2{
+      position: absolute;
+      color: aliceblue;
+       font-family: Archive;
+       margin: 0%;
+       top: 340px;
+       margin-left: 100px;
+       -webkit-transition-duration: 0.5s; 
+       transition-duration: 0.5s;
+    }
+    #JuegosGratisyOfertas{
+      position: relative;
+      font-size: xxx-large;
+      text-align-last:center;
+      font-family: Archive;
+      color: white;
+      margin: 0%;
+      top: -200px;
+      left: 550px;
+    }
+    #LOGO{
+      position: relative;
+      left: 575px;
+    }
+    #NOVEDADES{
+      color: white;
+      position: relative;
+      left: 870px;
+      font: 150% Archive;
+    }
+    .Comunidad{
+      position: relative;
+      left: 765px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+    #RedesSocial{
+      text-align: right;
+    }  
+  #t01 tr:nth-child(even){
+  font: 150% Archive;
+  }
+  #t01 tr:nth-child(odd){
+  font: 150% Archive;
+  }
+  #t01 tr:nth-child(even) {
+    background-color: rgb(228, 135, 155);
+  }
+  #t01 tr:nth-child(odd) {
+   background-color: rgb(153, 49, 127);
+  }
+  #t01 th {
+    background-color: rgb(52, 78, 196);
+    color: rgb(255, 255, 255);
+  }
+.OFERTAS1{
+  position: relative;
+  margin: 1px;
+  left: 150px;
+  top: -70px;
+}
+.TEXTOTITULO1{
+  position: absolute;
+  color: rgb(0, 0, 0);
+   font-family: Archive;
+   font-size: x-large;
+   margin: 0%;
+   top: 50px;
+   margin-left: 450px;
+   }
+.DESCRIPCION1{
+  position: absolute;
+  color: rgb(0, 0, 0);
+   font-family: Archive;
+   font-size: small;
+   margin: 0%;
+   top: 90px;
+   margin-left: 450px;
+   width: 490px;
+   height: 105px;
+}
+
+.TEXTOTITULO2{
+  position: absolute;
+  color: rgb(0, 0, 0);
+   font-family: Archive;
+   font-size: x-large;
+   margin: 0%;
+   top: 50px;
+   margin-left: 1300px;
+   }
+.DESCRIPCION2{
+  position: absolute;
+  color: rgb(0, 0, 0);
+   font-family: Archive;
+   font-size: small;
+   margin: 0%;
+   top: 90px;
+   margin-left: 1300px;
+   width: 490px;
+   height: 105px;
+}  
+  
+  .OFERTAS2{
+    position: relative;
+    margin: 0%;
+    margin-left: 1000px;
+    bottom: 245px;
+   }
+   .TEXTOTITULO3{
+    position: absolute;
+    color: rgb(0, 0, 0);
+     font-family: Archive;
+     font-size: x-large;
+     margin: 0%;
+     top: 430px;
+     margin-left: 400px;
+     }
+  .DESCRIPCION3{
+    position: absolute;
+    color: rgb(0, 0, 0);
+     font-family: Archive;
+     font-size: small;
+     margin: 0%;
+     top: 475px;
+     margin-left: 400px;
+     width: 490px;
+     height: 105px;
+  }  
+    
+    .OFERTAS3{
+      position: relative;
+      margin: 0%;
+      right: -160px;
+      bottom: 45px;
+     }
+     .TEXTOTITULO4{
+      position: absolute;
+      color: rgb(0, 0, 0);
+       font-family: Archive;
+       font-size: x-large;
+       margin: 0%;
+       top: 495px;
+       margin-left: 1280px;
+       }
+    .DESCRIPCION4{
+      position: absolute;
+      color: rgb(0, 0, 0);
+       font-family: Archive;
+       font-size: small;
+       margin: 0%;
+       top: 565px;
+       margin-left: 1280px;
+       width: 490px;
+       height: 105px;
+    }  
+      
+      .OFERTAS4{
+        position: relative;
+        margin: 0%;
+        right: -1000px;
+        bottom: 215px;
+       }
+
+       .OFERTAS33{
+        position: relative;
+        margin: 0%;
+        right: -100px;
+        bottom: 100px;
+       }
+       .TEXTOTITULO33{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: x-large;
+         margin: 0%;
+         top: 440px;
+         margin-left: 450px;
+         }
+      .DESCRIPCION33{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: small;
+         margin: 0%;
+         top: 495px;
+         margin-left: 450px;
+         width: 490px;
+         height: 105px;
+      }  
+.Nuevo{
+    background-color: #008cff; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 10;
+  }
+    .Nuevo {
+      background-color: rgb(0, 255, 149); 
+      color: black; 
+      border: 2px solid #FFD700;
+  }
+
+.BOTON {
+  display: flex;  
+  flex-direction: row; 
+  justify-content: center; 
+background-color: rgb(0, 255, 149); 
+color: black; 
+border: 2px solid #FFD700;
+padding: 10px 10px;
+border-radius: 5px;
+text-decoration: none;
+width: 60px;
+margin: 5px;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+font-family: Archive;
+text-align: left;
+position: relative;
+z-index: 100;
+}
+  .BOTON:hover {
+  background-color: #FFD700;
+  color: white;
+  z-index: 100;
+  }
+.H11{
+  color: white;
+ font-family: Yu Gothic;
+}
+#GRIDAS1{
+  display:grid;
+  grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 3fr 1fr;
+}
+
+.GRID1{
+  width: 100px;
+  height: 100px;
+  background: no-repeat;
+  background-image: url(../images/Untitledsfa.png);
+  transition: height 1s, width 1s;
+  position: relative;
+  left: 960px;
+  transition: 1.5s ease;
+  margin: 5px;
+}
+
+.GRID1:hover {
+  width: 300px;
+  height: 166px;
+  transform : scale(1.4);
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.GRID1{
+  border: none;
+  background-image: url(../images/Untitledsfa.png);
+    overflow: hidden;
+}
+.GRID2{
+  width: 350px;
+  height: 100px;
+  background: no-repeat;
+  background-image: url(../images/Minecraft.jpg);
+  transition: height 1s, width 1s;
+  position: relative;
+  left: 710px;
+  transition: 1.5s ease;
+  margin: 5px ;
+}
+
+.GRID2:hover {
+  width: 466px;
+  height: 166px;
+  transform : scale(1.4);
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.GRID2{
+  border: none;
+  background-image: url(../images/Minecraft.jpg);
+  overflow: hidden;
+}
+.GRID3{
+  width: 240px;
+  height: 100px;
+  background: no-repeat;
+  background-image: url(../images/Untitledsfa.png);
+  position: relative;
+  left: 710px;
+  transition: 1.5s ease;
+  margin: 5px;
+}
+.GRID3:hover {
+  width: 460px;
+  height: 215px;
+  margin: 5px;
+  transform : scale(1.4);
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  
+}
+.GRID3{
+  border: none;
+  background-image: url(../images/header.jpg);
+    overflow: hidden;
+}
+#modelosJuegos{
+position: relative;
+left: 50px;
+}
+.intro{
+  position: relative;
+  left: 560px;
+}
+.imagenSombra:hover{
+background: radial-gradient(43.04% 43.04% at 50% 50%, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(header.jpg);
+filter: blur(18px);
+transition: 0.9s;
+}
+
+@media only screen and (min-width: 2560px)
+{
+  #CORRECCION {
+    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
+          align-items: left;
+          background-repeat:no-repeat;
+    }
+}
+@media only screen and (min-width: 1024px)
+{
+  #CORRECCION {
+    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
+          align-items: left;
+          background-repeat:no-repeat;
+          max-width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 1440px)
+{
+  #CORRECCION {
+    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
+      align-items: left;
+      background-repeat:no-repeat;
+      max-width: 1320px;
+    }
+  }
+

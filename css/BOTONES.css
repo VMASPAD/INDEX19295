@@ -1,0 +1,80 @@
+.BOTON1 {
+display: flex;  
+flex-direction: row; 
+justify-content: center; 
+background-color: rgb(0, 255, 149); 
+color: black; 
+border: 2px solid #FFD700;
+padding: 10px 10px;
+border-radius: 5px;
+text-decoration: none;
+width: 60px;
+margin: 5px;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+font-family: Archive;
+text-align: center;
+position: relative;
+left: 655px;
+bottom: -106px;
+z-index: 10;
+}
+.BOTON1:hover {
+background-color: #FFD700;
+ color: white;
+}
+.BOTON2 {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center; 
+    background-color: rgb(0, 255, 149); 
+    color: black; 
+    border: 2px solid #FFD700;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 60px;
+    margin: 5px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-family: Archive;
+    text-align: center;
+    position: relative;
+    left: 720px;
+    bottom: -53px;
+    z-index: 10;
+    }
+    .BOTON2:hover {
+    background-color: #FFD700;
+     color: white;
+    }
+    .BOTON3 {
+        display: flex;  
+        flex-direction: row; 
+        justify-content: center; 
+        background-color: rgb(0, 255, 149); 
+        color: black; 
+        border: 2px solid #FFD700;
+        padding: 10px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        width: 60px;
+        margin: 5px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        font-family: Archive;
+        text-align: center;
+        position: relative;
+        left: 590px;
+        bottom: 0px;
+        z-index: 10;
+        }
+        .BOTON3:hover {
+        background-color: #FFD700;
+         color: white;
+        }
+
+    #lugarDeBotones{
+        position: relative;
+        right: 30px;
+    }

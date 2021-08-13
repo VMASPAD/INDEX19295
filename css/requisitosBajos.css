@@ -1,0 +1,188 @@
+.body{
+  width: 800px;
+  height: 957px;
+}
+.Oferta{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 10;
+}
+
+  .Oferta {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+  .Oferta:hover {
+  background-color: #4CAF50;
+  color: white;
+  
+}
+.OFERTAS1{
+position: relative;
+margin: 1px;
+left: 265px;
+top: -175px;
+}
+.TEXTOTITULO1{
+position: absolute;
+color: rgb(0, 0, 0);
+font-family: Archive;
+font-size: x-large;
+margin: 0%;
+top: 70px;
+margin-left: 475px;
+}
+.DESCRIPCION1{
+position: absolute;
+color: rgb(0, 0, 0);
+font-family: Archive;
+font-size: small;
+margin: 0%;
+top: 100px;
+margin-left: 475px;
+width: 490px;
+height: 105px;
+}
+
+.TEXTOTITULO2{
+position: absolute;
+color: rgb(0, 0, 0);
+font-family: Archive;
+font-size: x-large;
+margin: 0%;
+top: 75px;
+margin-left: 1300px;
+}
+.DESCRIPCION2{
+position: absolute;
+color: rgb(0, 0, 0);
+font-family: Archive;
+font-size: small;
+margin: 0%;
+top: 120px;
+margin-left: 1300px;
+width: 490px;
+height: 105px;
+}  
+
+.OFERTAS2{
+position: relative;
+margin: 0%;
+margin-left: 1050px;
+top: -440px;
+}
+.TEXTOTITULO3{
+position: absolute;
+color: rgb(0, 0, 0);
+ font-family: Archive;
+ font-size: x-large;
+ margin: 0%;
+ top: 490px;
+ margin-left: 480px;
+ }
+.DESCRIPCION3{
+position: absolute;
+color: rgb(0, 0, 0);
+ font-family: Archive;
+ font-size: small;
+ margin: 0%;
+ top: 550px;
+ margin-left: 480px;
+ width: 490px;
+ height: 105px;
+}  
+
+.OFERTAS3{
+  position: relative;
+  margin: 0%;
+  right: -270px;
+  bottom: 255px;
+ }
+ .TEXTOTITULO4{
+  position: absolute;
+  color: rgb(0, 0, 0);
+   font-family: Archive;
+   font-size: x-large;
+   margin: 0%;
+   top: 500px;
+   margin-left: 1290px;
+   }
+.DESCRIPCION4{
+  position: absolute;
+  color: rgb(0, 0, 0);
+   font-family: Archive;
+   font-size: small;
+   margin: 0%;
+   top: 545px;
+   margin-left: 1290px;
+   width: 490px;
+   height: 105px;
+}        
+  .OFERTAS4{
+    position: relative;
+    margin: 0%;
+    right: -1100px;
+    top: -530px;
+   }
+
+   .BOTON:hover {
+    background-color: #FFD700;
+    color: white;
+    
+  }
+.BOTON {
+    display: flex;     
+flex-direction: column; 
+justify-content: flex-start;
+flex-direction: column;
+background-color: rgb(0, 255, 149); 
+color: black; 
+border: 2px solid #FFD700;
+padding: 10px 5px;
+border-radius: 5px;
+text-decoration: none;
+width: 92px;
+margin: 5px;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+font-family: Archive;
+text-align: center;
+}
+@media only screen and (min-width: 2560px)
+{
+  .body {
+    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
+          align-items: left;
+          background-repeat:no-repeat;
+    }
+}
+@media only screen and (min-width: 1024px)
+{
+  .body {
+    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
+          align-items: left;
+          background-repeat:no-repeat;
+    }
+}
+
+@media only screen and (min-width: 1440px)
+{
+  .body {
+    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
+      align-items: left;
+      background-repeat:no-repeat;
+    }
+}
+

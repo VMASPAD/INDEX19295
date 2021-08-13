@@ -1,0 +1,53 @@
+
+    /*"watch-css": "nodemon -e scss -x \"npm run build-css\""/*
+*/
+$color: black;
+$Link: font 50% Archive;
+
+   .textoAnimado1{
+    position: absolute;
+    z-index: 100;
+    color: rgba(255, 255, 255, 0);
+    font-size: xx-large;
+    top: 30px;
+    left: 250px;
+  }
+  .textoAnimado1:hover{
+    position: absolute;
+    color: #ffffff;
+    top: 30px;
+    left: 260px;
+    transition: 2s;
+    background-color: $color;
+}
+
+.textoAnimado2{
+    position: absolute;
+    z-index: 100;
+    color: rgba(255, 255, 255, 0);
+    font-size: small;
+    top: 250px;
+    left: 20px;
+    content: 600px 50px;
+}
+.textoAnimado2:hover{
+    position: absolute;
+    color: #ffffff;
+    top: 250px;
+    left: 20px;
+    transition: 2s;
+    content: 600px 70px;
+    background-color:$color;
+}
+.direccion{
+    position: absolute;
+    color: #ffffff00;
+    top: 200px;
+    left: 335px;
+    transition: 1s;
+    content: 600px 70px;
+}
+.direccion:hover{
+    color: #ffffff;
+    background-color:$color;
+}
