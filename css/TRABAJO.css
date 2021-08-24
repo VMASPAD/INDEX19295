@@ -397,13 +397,13 @@ z-index: 100;
 .GRID1{
   border: none;
   background-image: url(../images/Untitledsfa.png);
-    overflow: hidden;
+  overflow: hidden;
 }
 .GRID2{
   width: 350px;
   height: 100px;
   background: no-repeat;
-  background-image: url(../images/Minecraft.jpg);
+  background-image: url(../images/minecraft.jpg);
   transition: height 1s, width 1s;
   position: relative;
   left: 710px;
@@ -420,11 +420,6 @@ z-index: 100;
   margin-right: 50px;
   margin-top: 50px;
   margin-left: 50px;
-}
-.GRID2{
-  border: none;
-  background-image: url(../images/Minecraft.jpg);
-  overflow: hidden;
 }
 .GRID3{
   width: 240px;
