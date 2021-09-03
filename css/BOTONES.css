@@ -78,3 +78,30 @@ background-color: #FFD700;
         position: relative;
         right: 30px;
     }
+    .botonIndex {
+     display: flex;  
+    flex-direction: row; 
+     justify-content: center; 
+      background-color: rgb(0, 255, 149); 
+      color: black; 
+      border: 2px solid #FFD700;
+      padding: 10px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      width: 60px;
+      right: 5px;
+      top: 10px;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+      font-family: Archive;
+      text-align: left;
+      position: relative;
+      z-index: 100;
+      }
+      @media (max-width: 1024px){
+
+      #lugarDeBotones{
+        position: relative;
+        right: 230px;
+    }
+}

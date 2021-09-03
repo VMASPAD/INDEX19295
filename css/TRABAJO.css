@@ -2,9 +2,10 @@
     border: 8px solid rgba(255, 255, 255, 0);
     border-collapse: collapse;
   }
-  #CORRECCION{
+  .CORRECCION{
     width: 800px;
-    height: 957px;
+    height: 925px;
+    background-color: #FFD700;
   }
   table {
     width:100%;
@@ -37,19 +38,6 @@
   .h1 {
    color: rgb(255, 255, 255);
    font: 150% Archive;
-  }
-  .tr1 {
-   color: rgb(255, 255, 255);
-   font-size: small;
-   margin: 10px;
-  }
-  .tr2 {
-    color: rgb(255, 255, 255);
-    font-size: small;
-   }
-  .tr3 {
-   color: rgb(255, 255, 255);
-   font-size: small;
   }
   table {
     font-size: small;
@@ -115,28 +103,28 @@
       margin-left: 12;
       position: absolute;
       float: right;
-      width: 7.5cm;
-      height: 10cm;
+      width: 5.3cm;
+      height: 7cm;
       float: left;
       text-align: left;
       background-color: white;
       border: 9px solid rgb(255, 0, 0);
       border-collapse: collapse;
       margin: 0%;
-      top: 390px;
-      margin-left: 100px;
+      top: 790px;
+      margin-left: 20px;
       -webkit-transition-duration: 0.4s; 
       transition-duration: 0.4s;
     }
     .CHATGLOBAL2{
       position: absolute;
       color: aliceblue;
-       font-family: Archive;
-       margin: 0%;
-       top: 340px;
-       margin-left: 100px;
-       -webkit-transition-duration: 0.5s; 
-       transition-duration: 0.5s;
+      font-family: Archive;
+      margin: 0%;
+      top: 740px;
+      margin-left: 20px;
+      -webkit-transition-duration: 0.5s; 
+      transition-duration: 0.5s;
     }
     #JuegosGratisyOfertas{
       position: relative;
@@ -150,7 +138,7 @@
     }
     #LOGO{
       position: relative;
-      left: 575px;
+      left: 675px;
     }
     #NOVEDADES{
       color: white;
@@ -181,143 +169,9 @@
   }
   #t01 th {
     background-color: rgb(52, 78, 196);
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);;
   }
-.OFERTAS1{
-  position: relative;
-  margin: 1px;
-  left: 150px;
-  top: -70px;
-}
-.TEXTOTITULO1{
-  position: absolute;
-  color: rgb(0, 0, 0);
-   font-family: Archive;
-   font-size: x-large;
-   margin: 0%;
-   top: 50px;
-   margin-left: 450px;
-   }
-.DESCRIPCION1{
-  position: absolute;
-  color: rgb(0, 0, 0);
-   font-family: Archive;
-   font-size: small;
-   margin: 0%;
-   top: 90px;
-   margin-left: 450px;
-   width: 490px;
-   height: 105px;
-}
 
-.TEXTOTITULO2{
-  position: absolute;
-  color: rgb(0, 0, 0);
-   font-family: Archive;
-   font-size: x-large;
-   margin: 0%;
-   top: 50px;
-   margin-left: 1300px;
-   }
-.DESCRIPCION2{
-  position: absolute;
-  color: rgb(0, 0, 0);
-   font-family: Archive;
-   font-size: small;
-   margin: 0%;
-   top: 90px;
-   margin-left: 1300px;
-   width: 490px;
-   height: 105px;
-}  
-  
-  .OFERTAS2{
-    position: relative;
-    margin: 0%;
-    margin-left: 1000px;
-    bottom: 245px;
-   }
-   .TEXTOTITULO3{
-    position: absolute;
-    color: rgb(0, 0, 0);
-     font-family: Archive;
-     font-size: x-large;
-     margin: 0%;
-     top: 430px;
-     margin-left: 400px;
-     }
-  .DESCRIPCION3{
-    position: absolute;
-    color: rgb(0, 0, 0);
-     font-family: Archive;
-     font-size: small;
-     margin: 0%;
-     top: 475px;
-     margin-left: 400px;
-     width: 490px;
-     height: 105px;
-  }  
-    
-    .OFERTAS3{
-      position: relative;
-      margin: 0%;
-      right: -160px;
-      bottom: 45px;
-     }
-     .TEXTOTITULO4{
-      position: absolute;
-      color: rgb(0, 0, 0);
-       font-family: Archive;
-       font-size: x-large;
-       margin: 0%;
-       top: 495px;
-       margin-left: 1280px;
-       }
-    .DESCRIPCION4{
-      position: absolute;
-      color: rgb(0, 0, 0);
-       font-family: Archive;
-       font-size: small;
-       margin: 0%;
-       top: 565px;
-       margin-left: 1280px;
-       width: 490px;
-       height: 105px;
-    }  
-      
-      .OFERTAS4{
-        position: relative;
-        margin: 0%;
-        right: -1000px;
-        bottom: 215px;
-       }
-
-       .OFERTAS33{
-        position: relative;
-        margin: 0%;
-        right: -100px;
-        bottom: 100px;
-       }
-       .TEXTOTITULO33{
-        position: absolute;
-        color: rgb(0, 0, 0);
-         font-family: Archive;
-         font-size: x-large;
-         margin: 0%;
-         top: 440px;
-         margin-left: 450px;
-         }
-      .DESCRIPCION33{
-        position: absolute;
-        color: rgb(0, 0, 0);
-         font-family: Archive;
-         font-size: small;
-         margin: 0%;
-         top: 495px;
-         margin-left: 450px;
-         width: 490px;
-         height: 105px;
-      }  
 .Nuevo{
     background-color: #008cff; 
     border: none;
@@ -338,11 +192,115 @@
       color: black; 
       border: 2px solid #FFD700;
   }
-
-.BOTON {
-  display: flex;  
-  flex-direction: row; 
-  justify-content: center; 
+  .OFERTAS1{
+    position: relative;
+    margin: 1px;
+    left: 5px;
+    top: 50px;
+  }
+  .TEXTOTITULO1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+     font-family: Archive;
+     font-size: x-large;
+     margin: 0%;
+     top: 80px;
+     margin-left: 350px;
+     }
+  .DESCRIPCION1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+     font-family: Archive;
+     font-size: small;
+     margin: 0%;
+     top: 110px;
+     margin-left: 350px;
+     width: 400px;
+     height: 105px;
+  }
+  
+  .TEXTOTITULO2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+     font-family: Archive;
+     font-size: x-large;
+     margin: 0%;
+     top: 70px;
+     margin-left: 1310px;
+     }
+  .DESCRIPCION2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+     font-family: Archive;
+     font-size: small;
+     margin: 0%;
+     top: 130px;
+     margin-left: 1310px;
+     width: 490px;
+     height: 105px;
+  }  
+    
+    .OFERTAS2{
+      position: relative;
+      margin: 0%;
+      margin-left: 1000px;
+      top:-130px;
+     }
+     .TEXTOTITULO3{
+      position: absolute;
+      color: rgb(0, 0, 0);
+       font-family: Archive;
+       font-size: x-large;
+       margin: 0%;
+       bottom: 270px;
+       margin-left: 1250px;
+       }
+    .DESCRIPCION3{
+      position: absolute;
+      color: rgb(0, 0, 0);
+       font-family: Archive;
+       font-size: small;
+       margin: 0%;
+       top: 720px;
+       margin-left: 1250px;
+       width: 490px;
+       height: 105px;
+    }  
+      
+      .OFERTAS3{
+        position: relative;
+        margin: 0%;
+        right: -1000px;
+        bottom: -240px;
+       }
+       .TEXTOTITULO4{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: x-large;
+         margin: 0%;
+         bottom: 270px;
+         margin-left: 280px;
+         }
+      .DESCRIPCION4{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: small;
+         margin: 0%;
+         top: 700px;
+         margin-left: 280px;
+         width: 490px;
+         height: 105px;
+      }        
+        .OFERTAS4{
+          position: relative;
+          margin: 0%;
+          right: -5px;
+          bottom: -20px;
+         }
+  
+.botonIndex {
 background-color: rgb(0, 255, 149); 
 color: black; 
 border: 2px solid #FFD700;
@@ -350,7 +308,8 @@ padding: 10px 10px;
 border-radius: 5px;
 text-decoration: none;
 width: 60px;
-margin: 5px;
+right: 5px;
+top: -80px;
 -webkit-transition-duration: 0.4s; 
 transition-duration: 0.4s;
 font-family: Archive;
@@ -358,7 +317,7 @@ text-align: left;
 position: relative;
 z-index: 100;
 }
-  .BOTON:hover {
+  .botonIndex:hover {
   background-color: #FFD700;
   color: white;
   z-index: 100;
@@ -461,31 +420,477 @@ filter: blur(18px);
 transition: 0.9s;
 }
 
-@media only screen and (min-width: 2560px)
-{
-  #CORRECCION {
-    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
-          align-items: left;
-          background-repeat:no-repeat;
-    }
-}
-@media only screen and (min-width: 1024px)
-{
-  #CORRECCION {
-    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
-          align-items: left;
-          background-repeat:no-repeat;
-          max-width: 1140px;
-    }
-}
-
-@media only screen and (min-width: 1440px)
-{
-  #CORRECCION {
-    background-image: linear-gradient(to bottom, rgb(255, 51, 0) , rgb(216, 20, 200));
-      align-items: left;
-      background-repeat:no-repeat;
-      max-width: 1320px;
-    }
+.botonIndex{
+  background-color: rgb(0, 255, 149); 
+  color: black; 
+  border: 2px solid #FFD700;
+  padding: 10px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100px;
+  margin: 10px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  font-family: Archive;
+  text-align: center;
+  position: relative;
+  top: 20px;
   }
-
+@media (max-width: 1024px)
+{
+  .CORRECCION {
+    background-color: rgb(0, 255, 106);
+    width: 1024px;
+    height: 925px
+    }
+      .Nuevo{
+        background-color: #008cff; 
+        border: none;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 10;
+      }
+      
+        .Nuevo {
+          background-color: rgb(0, 255, 149); 
+          color: black; 
+          border: 2px solid #FFD700;
+      }
+      
+        .Nuevo:hover {
+        background-color: #FFD700;
+        color: white;
+        
+      }
+      .OFERTAS1{
+        position: relative;
+        margin: 1px;
+        left: 5px;
+        top: 50px;
+      }
+      .TEXTOTITULO1{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: x-large;
+         margin: 0%;
+         top: 80px;
+         margin-left: 350px;
+         }
+      .DESCRIPCION1{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: small;
+         margin: 0%;
+         top: 110px;
+         margin-left: 350px;
+         width: 400px;
+         height: 105px;
+      }
+      
+      .TEXTOTITULO2{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: x-large;
+         margin: 0%;
+         top: 750px;
+         margin-left: 350px;
+         }
+      .DESCRIPCION2{
+        position: absolute;
+        color: rgb(0, 0, 0);
+         font-family: Archive;
+         font-size: small;
+         margin: 0%;
+         top: 790px;
+         margin-left: 350px;
+         width: 490px;
+         height: 105px;
+      }  
+        
+        .OFERTAS2{
+          position: relative;
+          margin: 0%;
+          margin-left: 10px;
+          top:550px;
+         }
+         .TEXTOTITULO3{
+          position: absolute;
+          color: rgb(0, 0, 0);
+           font-family: Archive;
+           font-size: x-large;
+           margin: 0%;
+           top: 280px;
+           margin-left: 350px;
+           }
+        .DESCRIPCION3{
+          position: absolute;
+          color: rgb(0, 0, 0);
+           font-family: Archive;
+           font-size: small;
+           margin: 0%;
+           top: 320px;
+           margin-left: 350px;
+           width: 490px;
+           height: 105px;
+        }  
+          
+          .OFERTAS3{
+            position: relative;
+            margin: 0%;
+            right: -5px;
+            bottom: 120px;
+           }
+           .TEXTOTITULO4{
+            position: absolute;
+            color: rgb(0, 0, 0);
+             font-family: Archive;
+             font-size: x-large;
+             margin: 0%;
+             top: 540px;
+             margin-left: 350px;
+             }
+          .DESCRIPCION4{
+            position: absolute;
+            color: rgb(0, 0, 0);
+             font-family: Archive;
+             font-size: small;
+             margin: 0%;
+             top: 580px;
+             margin-left: 350px;
+             width: 490px;
+             height: 105px;
+          }        
+            .OFERTAS4{
+              position: relative;
+              margin: 0%;
+              right: -5px;
+              bottom: 70px;
+             }
+      
+             .Nuevo {
+              background-color: rgb(0, 255, 149); 
+              color: black; 
+              border: 2px solid #FFD700;
+          }
+          
+            .BOTON:hover {
+            background-color: #FFD700;
+            color: white;
+            
+          }
+        .botonIndex{
+        background-color: rgb(0, 255, 149); 
+        color: black; 
+        border: 2px solid #FFD700;
+        padding: 10px 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        width: 100px;
+        margin: 10px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        font-family: Archive;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        }
+        #t03,table, th, td {
+          border: 8px solid rgba(255, 255, 255, 0);
+          border-collapse: collapse;
+        }
+        #CORRECCION{
+          width: 800px;
+          height: 925px;
+          background-color: #FFD700;
+        }
+        table {
+          width:100%;
+        }
+        table, th, td {
+          border: 4px solid rgb(0, 0, 0);
+          border-collapse: collapse;  
+          border-collapse: separate;
+          border-spacing: 10px 5px;
+          position: relative;
+          width: 30cm;
+          margin: 1px;
+          margin-left: 400px;
+          text-align: center;
+          padding: 11px;
+          text-align: center;
+        }
+        #t03 th {
+          margin-left: 12;
+          position: absolute;
+          float: right;
+          width: 5cm;
+          height: 7cm;
+          float: left;
+          text-align: left;
+          background-color: white;
+          border: 8px solid rgb(255, 0, 0);
+          border-collapse: collapse;
+        }
+        .h1 {
+         color: rgb(255, 255, 255);
+         font: 150% Archive;
+        }
+        table {
+          font-size: small;
+        }
+        #body {
+            background-image: url(../images/FONDO1.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            width: 800px;
+          }
+          footer{
+            color: rgb(255, 255, 255);
+          }
+          .FONDOJ2{
+            position: absolute;
+            width: 324px;
+            height: 157px;
+            background: url(AFG.png);
+            border-radius: 26px
+          }
+          .TITULOS5{
+            color: azure;
+            font: 150% Archive;
+          }
+          .Oferta{
+              display: block;
+              width: 6%;
+              padding: 5px;
+              border: none;
+              margin-bottom: 5px;
+              box-sizing: border-box;
+              font-size: 1rem;
+              text-align: center;
+              text-decoration: none;
+              background: gold;
+              color: rgb(192, 48, 48);
+              margin-right: 0px;    
+          }
+          #NONE{
+            color: aliceblue;
+          }
+          #TEXTOCHAT{
+            background-color: white;
+            border: 8px solid rgb(255, 0, 0);
+            border-collapse: collapse;
+          }
+          .IMAGEN1{
+          position: relative;
+          top: 0px; 
+          left: 1550px;
+          width: 60px;
+          height: 60px;
+          bottom: 1200px;
+          border-radius: 50%;
+          margin: 10px;
+          border:2px solid #fff;
+          display: block;
+          }
+          #t03,table, th, td {
+            border: 8px solid rgba(255, 255, 255, 0);
+            border-collapse: collapse;
+          }
+          #CORRECCION{
+            width: 800px;
+            height: 925px;
+            background-color: #FFD700;
+          }
+          table {
+            width:100%;
+          }
+          table, th, td {
+            border: 4px solid rgb(0, 0, 0);
+            border-collapse: collapse;  
+            border-collapse: separate;
+            border-spacing: 10px 5px;
+            position: relative;
+            width: 30cm;
+            margin: 1px;
+            margin-left: 400px;
+            text-align: center;
+            padding: 11px;
+            text-align: center;
+          }
+          #t03 th {
+            margin-left: 12;
+            position: absolute;
+            float: right;
+            width: 5cm;
+            height: 7cm;
+            float: left;
+            text-align: left;
+            background-color: white;
+            border: 8px solid rgb(255, 0, 0);
+            border-collapse: collapse;
+          }
+          .h1 {
+           color: rgb(255, 255, 255);
+           font: 150% Archive;
+          }
+          table {
+            font-size: small;
+          }
+          #body {
+              background-image: url(../images/FONDO1.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+              width: 800px;
+            }
+            footer{
+              color: rgb(255, 255, 255);
+            }
+            .FONDOJ2{
+              position: absolute;
+              width: 324px;
+              height: 157px;
+              background: url(AFG.png);
+              border-radius: 26px
+            }
+            .TITULOS5{
+              color: azure;
+              font: 150% Archive;
+            }
+            .Oferta{
+                display: block;
+                width: 6%;
+                padding: 5px;
+                border: none;
+                margin-bottom: 5px;
+                box-sizing: border-box;
+                font-size: 1rem;
+                text-align: center;
+                text-decoration: none;
+                background: gold;
+                color: rgb(192, 48, 48);
+                margin-right: 0px;    
+            }
+            #NONE{
+              color: aliceblue;
+            }
+            #TEXTOCHAT{
+              background-color: white;
+              border: 8px solid rgb(255, 0, 0);
+              border-collapse: collapse;
+            }
+            .IMAGEN1{
+            position: relative;
+            top: 0px; 
+            left: 1550px;
+            width: 60px;
+            height: 60px;
+            bottom: 1200px;
+            border-radius: 50%;
+            margin: 10px;
+            border:2px solid #fff;
+            display: block;
+            }
+            .CHATGLOBAL{
+              position: relative;
+              margin-left: 12;
+              position: absolute;
+              float: right;
+              width: 5.3cm;
+              height: 7cm;
+              float: left;
+              text-align: left;
+              background-color: white;
+              border: 9px solid rgb(255, 0, 0);
+              border-collapse: collapse;
+              margin: 0%;
+              top: 790px;
+              margin-left: 20px;
+              -webkit-transition-duration: 0.4s; 
+              transition-duration: 0.4s;
+            }
+            .CHATGLOBAL2{
+              position: absolute;
+              color: aliceblue;
+              font-family: Archive;
+              margin: 0%;
+              top: 740px;
+              margin-left: 20px;
+              -webkit-transition-duration: 0.5s; 
+              transition-duration: 0.5s;
+            }
+            #JuegosGratisyOfertas{
+              position: relative;
+              font-size: xx-large;
+              text-align-last:center;
+              font-family: Archive;
+              color: white;
+              margin: 0%;
+              top: -200px;
+              left: -20px;
+            }
+            #LOGO{
+              position: relative;
+              left: 220px;
+            }
+            #NOVEDADES{
+              color: white;
+              position: relative;
+              left: 450px;
+              font: 150% Archive;
+            }
+            .Comunidad{
+              position: relative;
+              left: 295px;
+              margin-top: 100px;
+              margin-bottom: 50px;
+            }
+            #RedesSocial{
+              text-align: right;
+              position: relative;
+              left: -700px;
+              top: 270px;
+            }  
+            .intro{
+              position: relative;
+              left: 80px;
+            }
+            #modelosJuegos{
+              position: relative;
+              left: -410px;
+              }
+              .t01{
+                left: -110px;
+                width: 10cm;
+              }
+              .t01 tr:nth-child(even){
+                font: 150% Archive;
+                }
+                .t01 tr:nth-child(odd){
+                font: 150% Archive;
+                }
+                .t01 tr:nth-child(even) {
+                  background-color: rgb(228, 135, 155);
+                }
+                .t01 tr:nth-child(odd) {
+                 background-color: rgb(153, 49, 127);
+                }
+                .t01 th {
+                  background-color: rgb(52, 78, 196);
+                  color: rgb(255, 255, 255);
+                }
+      }
