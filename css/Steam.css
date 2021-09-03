@@ -1,7 +1,7 @@
 .body{
   width: 800px;
-  height: 925px;
-  background-color: green;
+  height: 1024px;
+  background: linear-gradient(180deg, #FF0000 0%, #FF00F5 100%);;
   }
 
 .Nuevo{
@@ -221,7 +221,7 @@
   @media (max-width: 1024px)
 {
   .body {
-    background-color: red;
+    background: linear-gradient(180deg, #FF0000 0%, #FF00F5 100%);;
     }
 
       .Nuevo{

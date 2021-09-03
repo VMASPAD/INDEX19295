@@ -1,7 +1,7 @@
 #CORRECCION{
     width: 800px;
     height: 925px;
-    background-color: #FFD700;
+    background: linear-gradient(180deg, #FF0000 0%, #FF00F5 100%);;
   }
 .OFERTAS1{
     position: relative;
@@ -131,7 +131,7 @@
 @media (max-width: 1024px)
 {
   #CORRECCION {
-    background-color: rgb(0, 255, 85);
+    background: linear-gradient(180deg, #FF0000 0%, #FF00F5 100%);;
     }
 
       .Nuevo{
