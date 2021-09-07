@@ -1,49 +1,15 @@
-#t03,table, th, td {
-    border: 8px solid rgba(255, 255, 255, 0);
-    border-collapse: collapse;
-  }
+
   .CORRECCION{
     width: 800px;
     height: 925px;
-    background-color: #FF00F5;
-  }
-  table {
-    width:100%;
-  }
-  table, th, td {
-    border: 4px solid rgb(0, 0, 0);
-    border-collapse: collapse;  
-    border-collapse: separate;
-    border-spacing: 10px 5px;
-    position: relative;
-    width: 30cm;
-    margin: 1px;
-    margin-left: 400px;
-    text-align: center;
-    padding: 11px;
-    text-align: center;
-  }
-  #t03 th {
-    margin-left: 12;
-    position: absolute;
-    float: right;
-    width: 5cm;
-    height: 7cm;
-    float: left;
-    text-align: left;
-    background-color: white;
-    border: 8px solid rgb(255, 0, 0);
-    border-collapse: collapse;
+    background: linear-gradient(180deg, #FF0000 0%, #FF00F5 100%);;
   }
   .h1 {
    color: rgb(255, 255, 255);
    font: 150% Archive;
   }
-  table {
-    font-size: small;
-  }
   #body {
-      background-image: url(../images/FONDO1.png);
+    background-color:#FF00F5;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -94,7 +60,6 @@
     height: 60px;
     bottom: 1200px;
     border-radius: 50%;
-    margin: 10px;
     border:2px solid #fff;
     display: block;
     }
@@ -134,11 +99,11 @@
       color: white;
       margin: 0%;
       top: -200px;
-      left: 550px;
+      left: 560px;
     }
     #LOGO{
       position: relative;
-      left: 675px;
+      left: 595px;
     }
     #NOVEDADES{
       color: white;
@@ -153,24 +118,8 @@
       margin-bottom: 50px;
     }
     #RedesSocial{
-      text-align: right;
-    }  
-  #t01 tr:nth-child(even){
-  font: 150% Archive;
-  }
-  #t01 tr:nth-child(odd){
-  font: 150% Archive;
-  }
-  #t01 tr:nth-child(even) {
-    background-color: rgb(228, 135, 155);
-  }
-  #t01 tr:nth-child(odd) {
-   background-color: rgb(153, 49, 127);
-  }
-  #t01 th {
-    background-color: rgb(52, 78, 196);
-    color: rgb(255, 255, 255);;
-  }
+      text-align: left;
+    } 
 
 .Nuevo{
     background-color: #008cff; 
@@ -409,6 +358,7 @@ z-index: 100;
 #modelosJuegos{
 position: relative;
 left: 50px;
+top: 75px;
 }
 .intro{
   position: relative;
@@ -438,10 +388,8 @@ transition: 0.9s;
   }
 @media (max-width: 1024px)
 {
-  .CORRECCION {
+  .body {
     background-color: #FF00F5;
-    width: 1024px;
-    height: 925px
     }
       .Nuevo{
         background-color: #008cff; 
@@ -649,14 +597,6 @@ transition: 0.9s;
         table {
           font-size: small;
         }
-        #body {
-            background-image: url(../images/FONDO1.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            width: 800px;
-          }
           footer{
             color: rgb(255, 255, 255);
           }
@@ -692,18 +632,6 @@ transition: 0.9s;
             background-color: white;
             border: 8px solid rgb(255, 0, 0);
             border-collapse: collapse;
-          }
-          .IMAGEN1{
-          position: relative;
-          top: 0px; 
-          left: 1550px;
-          width: 60px;
-          height: 60px;
-          bottom: 1200px;
-          border-radius: 50%;
-          margin: 10px;
-          border:2px solid #fff;
-          display: block;
           }
           #t03,table, th, td {
             border: 8px solid rgba(255, 255, 255, 0);
@@ -749,14 +677,6 @@ transition: 0.9s;
           table {
             font-size: small;
           }
-          #body {
-              background-image: url(../images/FONDO1.png);
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              position: relative;
-              width: 800px;
-            }
             footer{
               color: rgb(255, 255, 255);
             }
@@ -796,12 +716,11 @@ transition: 0.9s;
             .IMAGEN1{
             position: relative;
             top: 0px; 
-            left: 1550px;
+            right: 1550px;
             width: 60px;
             height: 60px;
             bottom: 1200px;
             border-radius: 50%;
-            margin: 10px;
             border:2px solid #fff;
             display: block;
             }
@@ -810,8 +729,8 @@ transition: 0.9s;
               margin-left: 12;
               position: absolute;
               float: right;
-              width: 5.3cm;
-              height: 7cm;
+              width: 4.3cm;
+              height: 5cm;
               float: left;
               text-align: left;
               background-color: white;
@@ -841,11 +760,12 @@ transition: 0.9s;
               color: white;
               margin: 0%;
               top: -200px;
-              left: -20px;
+              left: 80px;
             }
             #LOGO{
-              position: relative;
-              left: 220px;
+              position: absolute;
+              left: 120px;
+              top: 600px;
             }
             #NOVEDADES{
               color: white;
@@ -854,10 +774,10 @@ transition: 0.9s;
               font: 150% Archive;
             }
             .Comunidad{
-              position: relative;
+              position: absolute;
               left: 295px;
-              margin-top: 100px;
-              margin-bottom: 50px;
+              margin-top: 400px;
+              margin-bottom: 100px;
             }
             #RedesSocial{
               text-align: right;
@@ -872,6 +792,7 @@ transition: 0.9s;
             #modelosJuegos{
               position: relative;
               left: -410px;
+              top: 300px;
               }
               .t01{
                 left: -110px;
